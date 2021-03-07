@@ -1,0 +1,22 @@
+.container {
+	width: 100%;
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.container--pricing {
+	max-width: 680px;
+	text-align: center;
+}
+
+.container--FAQ {
+	max-width: 945px;
+}
+
+.container--download {
+	position: relative;
+	z-index: 1000;
+	padding: 0 0 105px 0;
+}
+

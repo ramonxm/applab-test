@@ -1,0 +1,130 @@
+
+.pricing {
+	border-bottom: 2px solid #f4f4f4;
+	padding: 0 0 100px;
+}
+.section_text--pricing {
+	max-width: 635px;
+}
+
+.button_block {
+	border-radius: 29px;
+	border: 2px solid #ebebeb;
+
+	width: 320px;
+	height: 55px;
+	padding: 5px 0;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.btn_pricing {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 1;
+	text-decoration: none;
+
+	padding: 15px 35px;
+
+	background-color: #2500f9;
+	border-radius: 29px;
+
+	transition: background-color .2s linear, color .2s linear;
+
+	outline: none;
+	cursor: pointer;
+	border: none;
+}
+
+.btn_pricing.active {
+	background-color: #fff;
+	color: #616368;
+}
+
+.pricing_inner {
+	display: flex;
+	margin-top: 40px;
+
+	align-items: flex-start;
+}
+
+.pricing_item {
+	width: calc(50% - 20px);
+	box-shadow: 4px 55px 62px rgba(144, 163, 177, 0.18);
+	border-radius: 9px;
+}
+
+.pricing_item:first-child {
+	margin-right: 40px;
+}
+
+.pricing_item_head {
+	background: url("../images/price_bg.png") center no-repeat;
+	background-size: cover;
+
+	padding: 70px 0 28px;
+}
+
+.price_month {
+	font-family: 'Poppins', sans-serif;
+	font-size: 60px;
+	font-weight: 600;
+	color: #242f51;
+}
+
+.price_month span {
+	font-size: 18px;
+	font-weight: 400;
+	color: #999ca5;
+}
+
+.price_title {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #242f51;
+}
+
+.price_subtitle {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #999ca5;
+}
+
+.pricing_item_content {
+	padding: 40px 0 20px;
+}
+
+.price_info {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #999ca5;
+
+	margin-bottom: 30px;
+}
+
+.btn--long_price {
+	padding: 18px 50px;
+	display: inline-block;
+}
+
+.link--price {
+	display: block;
+	margin: 20px 0 0;
+}
+
+.monthly.active {
+	border: 2px solid #ebebeb;
+}
+
+.annually.active {
+	border: 2px solid #ebebeb;
+}
+

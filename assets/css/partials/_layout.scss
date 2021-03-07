@@ -1,0 +1,536 @@
+@media (max-width: 1400px) {
+
+    /*Testimonials*/
+    .testimonials {
+        display: block;
+    }
+
+    .map_block {
+        text-align: center;
+        padding: 100px 0 0 0;
+    }
+
+    .map_block img {
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .testimonials_block {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .testimonials_item {
+        width: calc(47% - 40px);
+    }
+
+    .star {
+        display: flex;
+        flex-direction: column;
+        width: calc(6% - 40px);
+        margin: 0 50px;
+    }
+
+    .fa-star {
+        margin-bottom: 15px;
+    }
+
+    .section_title--testimonials {
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 35px;
+    }
+
+    .section_text--testimonials {
+        margin-left: 20px;
+    }
+
+    .client_block {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .client_foto img {
+        margin-left: 20px;
+        width: 100%;
+        max-width: 90px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    /*Nav*/
+    .nav {
+        margin-left: 0;
+    }
+
+    /*Features*/
+    .phone_features {
+        width: 100%;
+        max-width: 576px;
+    }
+
+    /*Download*/
+    .download_background {
+        width: 600px;
+
+        bottom: -12%;
+    }
+}
+
+@media (max-width: 991px) {
+
+    /*Features*/
+    .block_inner--line {
+        flex-direction: column;
+    }
+
+    .block_item_text {
+        max-width: 991px;
+    }
+
+    .block_item--line {
+        padding: 0 0 0 125px;
+        margin-top: 10px;
+    }
+
+    .block_item--line:first-child {
+        margin-left: 0;
+    }
+
+    .block_icon--line {
+        top: 100px;
+        left: 0;
+    }
+
+    /*Choose*/
+    .section_item--ultimate {
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .section_item--foto_phone {
+        position: static;
+        width: 100%;
+        max-width: 100%;
+
+        text-align: right;
+    }
+
+    .foto_phone {
+        width: 90%;
+        max-width: 700px;
+        display: inline-block;
+    }
+
+    /*FAQ*/
+    .FAQ_answer {
+        margin: 37px 0;
+    }
+}
+
+@media (max-width: 900px) {
+
+    /*Header*/
+    .header_inner {
+        padding-top: 25px;
+    }
+
+    /*Nav*/
+    .nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 50%;
+        z-index: 2000;
+        background-color: #fdfdfe;
+    }
+
+    .header.fixed .nav {
+        background-color: #e2eaed;
+    }
+
+    .nav.active {
+        display: block;
+    }
+
+    .nav_link {
+        display: block;
+        margin: 0;
+        padding: 12px 20px;
+    }
+
+    .nav_toggle {
+        display: block;
+    }
+
+    .btn--header {
+        display: none;
+    }
+
+    /*Home*/
+    .home_inner {
+        margin-left: 10px;
+    }
+
+    .home_item--text {
+        padding: 200px 0 0;
+    }
+
+    .home_title {
+        font-size: 45px;
+    }
+
+    .home_choice_text {
+        font-size: 14px;
+    }
+
+    .phone_foto {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    /*Companies*/
+    .company_wrap {
+        flex-wrap: wrap;
+    }
+
+    .company_wrap img {
+        margin: 15px 15px 0 0;
+    }
+
+    /*Features*/
+    .section_block {
+        flex-wrap: wrap-reverse;
+    }
+
+    .section_block--wrap {
+        flex-wrap: wrap;
+    }
+
+    .section_item--man {
+        padding: 0 0 0 20px;
+    }
+
+    .section_item--image_man {
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .section_item--image_man img {
+        width: 100%;
+        max-width: 605px;
+    }
+
+    .section_title--awesome {
+        max-width: 900px;
+        margin-top: 130px;
+    }
+
+    .section_title--big {
+        max-width: 900px;
+        margin: 100px 0 0 20px;
+        padding: 0 0 50px 0;
+        border-right: none;
+        border-bottom: 1px solid #b9b8b8;
+    }
+
+    .section_title--man {
+        max-width: 900px;
+        margin-top: 100px;
+    }
+
+    .section_title--ultimate {
+        margin: 80px 0 0 20px;
+    }
+
+    .section_text {
+        max-width: 900px;
+        margin: 30px 0 30px 20px;
+    }
+
+    .section_text--big {
+        margin-top: 30px;
+    }
+
+    .section_text--man {
+        margin: 30px 0 20px 0;
+    }
+
+    .section_item {
+        width: 100%;
+    }
+
+    .section_item--image {
+        margin: 60px auto 0;
+        text-align: center;
+    }
+
+    .block_item_title {
+        margin-top: 50px;
+    }
+
+    .block_item_text {
+        max-width: 900px;
+    }
+
+    /*Download*/
+    .download_background {
+        width: 400px;
+
+        bottom: -8%;
+    }
+
+    .section_title--download {
+        margin-left: 20px;
+        font-size: 35px;
+    }
+
+    .download_button {
+        padding: 0 0 0 15px;
+    }
+
+    /*Footer*/
+    .nav--footer {
+        display: block;
+    }
+
+    .nav_link--footer:first-child {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /*Home*/
+    .home_item--text {
+        padding: 100px 0 0;
+    }
+
+    .home_title {
+        font-size: 35px;
+    }
+
+    .link {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .phone_foto {
+        min-width: 291px;
+        margin-top: 70px;
+        margin-left: 30px;
+    }
+
+    /*Choose*/
+    .choose_block_item {
+        width: calc(50% - 40px);
+    }
+
+    /*Download*/
+    .download_background {
+        width: 240px;
+
+        bottom: -5%;
+    }
+}
+
+@media (max-width: 545px) {
+    .section_title {
+        margin-top: 100px;
+    }
+
+    /*Button*/
+    .btn {
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+
+    .btn--header {
+        display: none;
+    }
+
+    /*Home*/
+    .home_inner {
+        display: block;
+    }
+
+    .home_item {
+        width: 100%;
+    }
+
+    .link {
+        display: inline-block;
+    }
+
+    .phone_foto {
+        margin: 20px auto;
+    }
+
+    /*Choose*/
+    .choose_block_text {
+        font-size: 14px;
+    }
+
+    /*Testimonials*/
+    .testimonials_block {
+        display: block;
+    }
+
+    .testimonials_item {
+        width: 100%;
+    }
+
+    .star {
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .fa-star {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+
+    .testimonials_title {
+        margin-left: 20px;
+    }
+
+    .testimonials_text {
+        margin-left: 20px;
+    }
+
+    .client_name {
+        font-size: 15px;
+    }
+
+    .client_prof {
+        font-size: 14px;
+    }
+
+    /*FAQ*/
+    .FAQ_header {
+        font-size: 15px;
+    }
+
+    .FAQ_answer {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 470px) {
+
+    /*Body*/
+    body {
+        font-size: 14px;
+    }
+
+    /*Home*/
+    .home_item--text {
+        text-align: center;
+    }
+
+    /*Section*/
+    .section_item--ultimate {
+        text-align: center;
+    }
+
+    .section_title {
+        font-size: 28px;
+    }
+
+    /*Features*/
+    .block_item_title {
+        line-height: 1.6;
+    }
+
+    /*Choose*/
+    .choose_block_item {
+        width: 100%;
+    }
+
+    .choose_block_item--ultimate {
+        margin-bottom: 30px;
+    }
+
+    .choose_block_title {
+        margin-top: 30px;
+    }
+
+    .choose_block_icon {
+        margin: 0 auto;
+    }
+
+    /*Pricing*/
+    .button_block {
+        width: 280px;
+        height: 45px;
+    }
+
+    .btn_pricing {
+        padding: 10px 25px;
+    }
+
+    .pricing_inner {
+        display: block;
+    }
+
+    .pricing_item {
+        width: 100%;
+    }
+
+    .pricing_item:first-child {
+        margin-bottom: 30px;
+    }
+
+    .pricing_item_head {
+        padding: 30px 0 28px;
+    }
+
+    .link--price {
+        display: block;
+    }
+
+    .price_month {
+        font-size: 40px;
+    }
+
+    /*Testimonials*/
+    .client_block {
+        flex-wrap: wrap;
+        padding-bottom: 60px;
+    }
+
+    .client_about {
+        margin: 0 auto;
+    }
+
+    .container--testimonials {
+        position: relative;
+    }
+
+    .arrow_client {
+        margin: 20px 0 0 0;
+        width: 100%;
+        justify-content: center;
+
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    /*Download*/
+    .download_background {
+        bottom: -4%;
+    }
+
+    .download_button a {
+        display: block;
+        margin-left: 5px;
+    }
+}

@@ -1,0 +1,115 @@
+
+.testimonials {
+	display: flex;
+	position: relative;
+
+	overflow: hidden;
+}
+
+.map_block {
+	padding: 230px 0 0 0;
+}
+
+.slick-slide:focus {
+	outline: none;
+}
+
+.testimonials_block {
+	width: 50%;
+	padding: 0 10px 0 0;
+}
+
+.fa-star {
+	color: #ffcc00;
+	font-size: 20px;
+}
+
+.testimonials_title {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #242f51;
+
+	margin-top: 30px;
+}
+
+.testimonials_text {
+	margin-top: 30px;
+	max-width: 580px;
+}
+
+.client_block {
+	display: flex;
+	margin-top: 60px;
+	align-items: center;
+}
+
+.client_about {
+	display: flex;
+	align-items: center;
+}
+
+.client_foto img {
+	border-radius: 50%;
+}
+
+.client_name {
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #242f51;
+	margin-left: 30px;
+}
+
+.client_prof {
+	font-size: 18px;
+	margin-left: 30px;
+}
+
+.arrow_client {
+	display: flex;
+	margin-left: 20%;
+	position: absolute;
+	bottom: 40px;
+	right: 10%;
+	z-index: 10;
+}
+
+.arrow {
+	font-size: 18px;
+	color: #dee1e6;
+	line-height: 50px;
+	text-align: center;
+	border: 2px solid #eff3f8;
+	border-radius: 50%;
+
+	width: 50px;
+	height: 50px;
+	margin-left: 20px; 
+
+	transition: color .1s linear, background-color .2s linear;
+
+	cursor: pointer;
+}
+
+.arrow:first-child {
+	margin-left: 0;
+	position: relative;
+}
+
+.arrow:first-child:after {
+	content: "";
+	width: 1px;
+	height: 25px;
+	background-color: #e7e7e7;
+
+	position: absolute;
+	right: -11px;
+	bottom: 9px;
+	z-index: 1;
+}
+
+.arrow:hover {
+	color: #2500f9;
+	background-color: #eff3f8;
+}

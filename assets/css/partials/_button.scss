@@ -1,0 +1,31 @@
+.btn {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 1;
+	text-decoration: none;
+
+	padding: 20px 40px;
+
+	background-color: #2500f9;
+	border-radius: 29px;
+
+	transition: background-color .2s linear, color .2s linear;
+
+	outline: none;
+	cursor: pointer;
+	border: none;
+
+	display: inline-block;
+}
+
+.btn:hover {
+	background-color: #fcae61;
+	color: #242f51;
+}
+
+.btn--long {
+	padding: 20px 60px
+}
+

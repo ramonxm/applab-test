@@ -1,0 +1,16 @@
+
+.downloand {
+	position: relative;
+}
+
+
+.download_button a:first-child {
+	margin: 0 32px 0 5px;
+}
+
+.download_background {
+	position: absolute;
+	bottom: -17%;
+	right: 0;
+	z-index: 1;
+}

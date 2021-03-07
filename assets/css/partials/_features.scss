@@ -1,0 +1,180 @@
+
+.features {
+	border-bottom: 2px solid #f4f4f4;
+}
+
+
+.section_block {
+	display: flex;
+}
+
+.section_block--wrap {
+	flex-wrap: wrap;
+}
+
+.section_item {
+	width: 50%;
+}
+
+.section_item--image {
+	margin: 165px 120px 0 -100px;
+}
+
+.section_item--image_man {
+	margin: 110px 110px 70px -80px;
+}
+
+.section_item--man {
+	padding: 0 0 0 70px;
+}
+
+.section_title {
+	margin-top: 210px;
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 1.2;
+	color: #242f51;
+}
+
+.section_title--awesome {
+	max-width: 290px;
+}
+
+.section_title--big {
+	font-size: 40px;
+
+	margin: 100px 0 0 80px;
+	padding: 0 75px 0 0;
+
+	max-width: 505px;
+
+	border-right: 1px solid #b9b8b8;
+}
+
+.section_title--man {
+	max-width: 400px;
+
+	margin-top: 250px;
+}
+
+.section_title--testimonials {
+	font-size: 40px;
+	margin-top: 150px;
+	max-width: 490px;
+}
+
+.section_title--FAQ {
+	font-size: 40px;
+	text-align: center;
+}
+
+.section_title--download {
+	margin-top: 96px;
+	font-size: 48px;
+}
+
+.section_text {
+	margin: 28px 0 90px;
+	max-width: 440px;
+}
+
+.section_text--big {
+	margin: 130px 0 0 48px;
+}
+
+.section_text--man {
+	margin-bottom: 50px;
+}
+
+.section_text--testimonials {
+	margin-bottom: 40px;
+	max-width: 480px;
+}
+
+.section_text--FAQ {
+	text-align: center;
+	max-width: 640px;
+	margin: 30px auto 0;
+}
+
+.section_text--download {
+	margin-bottom: 51px;
+	max-width: 640px;
+}
+
+.block_inner--line {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.block_item {
+	position: relative;
+
+	padding: 0 0 0 125px;
+}
+
+.block_item--line {
+	padding: 125px 0 0 0;
+
+	margin-top: 40px;
+}
+
+.block_item--line:first-child {
+	margin-left: 80px;
+}
+
+.block_icon {
+	background-color: #ffecef;
+	border-radius: 50%;
+
+	width: 88px;
+	height: 88px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 1;
+	transform: translateY(-50%);
+}
+
+.block_icon--blue {
+	background-color: #f4f4ff;
+}
+
+.block_icon--green {
+	background-color: #e4ffee;
+}
+
+.block_icon--line {
+	top: 116px;
+	left: 0;
+}
+
+.block_item_title {
+	margin-top: 50px;
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 2.9;
+	color: #f55767;
+}
+
+.block_item_title--blue {
+	color: #2563ff;
+}
+
+.block_item_title--green {
+	color: #40975f;
+}
+
+.block_item_text {
+	max-width: 270px;
+}
